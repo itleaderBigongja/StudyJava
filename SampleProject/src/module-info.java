@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author itleader
+ *
+ */
+module SampleProject {
+}

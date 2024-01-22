@@ -1,0 +1,19 @@
+package SamplePackage;
+
+public class IsEmptyAndIsBlankClass {
+
+	public static void main(String[] args) {
+		
+		String name_Python = " ";
+		String name_Sql    = " ";
+		
+		String name_Java   = " ";
+		System.out.println("첫 번째 name_Java의 변수 데이터가 존재 하나요? : " + name_Java.isBlank());
+		name_Java = "자바는 객체지향 프로그래밍 언어 입니다.";
+		System.out.println("두 번째 name_Java의 변수 데이터가 존재 하나요? : " + name_Java.isBlank());
+	}
+}
+
+
+
+

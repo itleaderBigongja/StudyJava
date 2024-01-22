@@ -1,0 +1,26 @@
+package SamplePackage;
+
+public class IsEmptyAndIsBlankClass {
+
+	public static void main(String[] args) {
+		
+		String strDataYn = "";
+		System.out.println("첫 번째로 호출한 strDataYn 변수 데이터 존재유무 확인");
+		System.out.printf("첫 번째 strDataYn : %s", strDataYn.isBlank() + "\n");
+		
+		System.out.println();
+		
+		strDataYn = "오늘은 isBlank()메서드를 공부해요!";
+		System.out.println("두 번째로 호출한 strDataYn 변수 데이터 존재유무 확인");
+		System.out.printf("두 번째 strDataYn : %s", strDataYn.isBlank() + "\n");
+		
+		strDataYn = " ";
+		System.out.println("세 번째로 호출한 strDataYn 변수 데이터 존재유무 확인");
+		System.out.printf("세 번째 strDataYn : %s", strDataYn.isBlank());
+		
+	}
+}
+
+
+
+

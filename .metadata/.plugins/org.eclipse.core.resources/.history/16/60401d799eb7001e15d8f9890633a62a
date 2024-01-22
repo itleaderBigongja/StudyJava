@@ -1,0 +1,11 @@
+package SamplePackage;
+
+public class ReplaceClass {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
+

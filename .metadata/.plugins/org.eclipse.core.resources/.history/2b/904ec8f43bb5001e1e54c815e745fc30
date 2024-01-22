@@ -1,0 +1,25 @@
+package SamplePackage;
+
+public class IsEmptyAndIsBlankClass {
+
+	public static void main(String[] args) {
+		String name_Java   = "";
+		String name_Python = "";
+		String name_Sql    = "";
+		
+		System.out.println(name_Java.isEmpty());
+		System.out.println("진행자 : 누가 먼저 자신을 배워야 한다고 생각하나요?");
+		
+		System.out.println("토론자_1 자바   : " + name_Java);
+		System.out.println("토론자_2 파이썬  : " + name_Python);
+		System.out.println("토론자_3 에스큐  : " + name_Sql);
+		
+		System.out.println(name_Java.isEmpty());
+		System.out.println(name_Python.isEmpty());
+		System.out.println(name_Sql.isEmpty());
+		
+		
+		System.out.println("진행자 : 아무도 대답이 없으시군요..");
+		
+	}
+}

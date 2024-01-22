@@ -1,0 +1,14 @@
+package SamplePackage;
+
+public class StringClass_2 {
+
+	public static void main(String[] args) {
+	
+		String str = "오늘의 공부는 indexOf 입니다.";
+		
+		System.out.println("첫 번째 찾은 특정 문자열은 문자열에 존재 하나요? : " + str.indexOf("리더"));
+		System.out.println("두 번째 찾은 특정 문자열은 문자열에 존재 하나요? : " + str.indexOf("indexOf"));
+	}
+}
+
+

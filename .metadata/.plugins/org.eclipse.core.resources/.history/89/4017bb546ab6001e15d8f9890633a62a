@@ -1,0 +1,16 @@
+package SamplePackage;
+
+public class splitClass {
+
+	public static void main(String[] args) {
+		
+		String toDay = "2024-01-19";
+		System.out.println(toDay.split("-"));
+		
+		
+		String[] toDayArray;
+		toDayArray = toDay.split("-");
+	}
+}
+
+

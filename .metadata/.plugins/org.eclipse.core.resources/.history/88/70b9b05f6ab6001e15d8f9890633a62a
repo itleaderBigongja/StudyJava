@@ -1,0 +1,18 @@
+package SamplePackage;
+
+public class splitClass {
+
+	public static void main(String[] args) {
+		
+		String toDay = "2024-01-19";
+		System.out.println(toDay.split("-"));
+		
+		
+		String[] toDayArray;
+		toDayArray = toDay.split("-");
+		
+		System.out.printf("toDayArray에 들어간 데이터의 개수 : %d", toDayArray.length);
+	}
+}
+
+

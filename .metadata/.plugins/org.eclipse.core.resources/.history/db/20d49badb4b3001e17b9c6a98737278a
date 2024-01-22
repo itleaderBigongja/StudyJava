@@ -1,0 +1,15 @@
+package SamplePackage;
+
+public class StringClass_2 {
+
+	public static void main(String[] args) {
+	
+		String str = "오늘의 공부는 indexOf 입니다.";
+		
+		System.out.println("첫 번째 문자열 시작위치 찾기 : " + str.indexOf("오늘의"));
+		System.out.println("두 번째 문자열 시작위치 찾기 : " + str.indexOf("공부는"));
+		System.out.println("세 번째 문자열 시작위치 찾기 : " + str.indexOf("입니다."));
+	}
+}
+
+

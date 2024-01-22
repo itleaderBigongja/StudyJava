@@ -1,0 +1,14 @@
+package SamplePackage;
+
+public class CompareToClass {
+
+	public static void main(String[] args) {
+		
+		String str_1 = "abcdefg";
+		String str_2 = "bcdefgh";
+		
+		System.out.println(str_1.compareTo(str_2));
+	}
+}
+
+

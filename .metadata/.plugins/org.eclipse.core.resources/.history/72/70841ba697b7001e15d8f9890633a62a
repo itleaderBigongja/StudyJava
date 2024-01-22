@@ -1,0 +1,13 @@
+package SamplePackage;
+
+public class ReplaceClass {
+
+	public static void main(String[] args) {
+		
+		String str_1 = new String("오늘 저녁은 라면을 먹었어요~");
+		String food_1 = "삼겹살";
+		String food_2 = "김치볶은밥";
+		String food_3 = "닭볶음탕";
+	}
+
+}

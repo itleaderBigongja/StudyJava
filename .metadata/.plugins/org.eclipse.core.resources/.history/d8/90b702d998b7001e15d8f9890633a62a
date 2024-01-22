@@ -1,0 +1,20 @@
+package SamplePackage;
+
+public class ReplaceClass {
+
+	public static void main(String[] args) {
+		
+		String str_1 = new String("오늘 저녁은 라면을 먹었어요~");
+		String food_1 = "삼겹살";
+		String food_2 = "김치볶은밥";
+		String food_3 = "닭볶음탕";
+		
+		
+		// replace( )를 사용해 먹은 음식을 변경하기
+		System.out.printf("오늘은 무엇을 먹었나요? : " + str_1.replace("라면", food_1));
+		System.out.printf("오늘은 무엇을 먹었나요? : " + str_1.replace("라면", food_2));
+		System.out.printf("오늘은 무엇을 먹었나요? : " + str_1.replace("라면", food_3));
+		
+	}
+
+}

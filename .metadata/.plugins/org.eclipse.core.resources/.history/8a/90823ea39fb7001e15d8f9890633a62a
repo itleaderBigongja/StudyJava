@@ -1,0 +1,18 @@
+package SamplePackage;
+
+public class ReplaceClass {
+
+	public static void main(String[] args) {
+		
+		String phoneNum = new String("My PhoneNumber is 010-1234-5678");
+		
+		// 첫 번째 정규식 : 숫자를 제외한 모든 문자 제거하기 [^0-9$]
+		System.out.printf("숫자를 제외한 모든 문자 제거하기 : %s\n\n", phoneNum.replaceAll("[^0-9$]", ""));
+		// 두 번째 정규식 : 영문자만 남기고 모든 문자제거 하기 [^a-zA-Z$]
+		System.out.printf("영문자만 남기고 모든 문자 제거하기 : %s\n\n", phoneNum.replaceAll("[^a-zA-Z$]", ""));
+		// 세 번째 영어와 숫자를 제외한 모든 문자 제거하기 [^a-zA-Z0-9$]
+		System.out.printf("영어와 숫자를 제외한 모든 문자 제거하기 : %s\n\n", phoneNum.replaceAll("[^a-zA-Z0-9$]", ""));
+	}
+
+}
+

@@ -1,0 +1,29 @@
+package SamplePackage;
+
+public class CompareToClass {
+
+	public static void main(String[] args) {
+		
+		String str_1 = "I have to Coding";
+		String str_2 = "I have to Coding";
+		String str_3 = "I have to Coding becaus my dream Developer";
+		
+		
+		System.out.println("문자열의 길이가 같은 문자열 길이 비교 해보기");
+		System.out.println("str_1의 문자열의 길이      : " + str_1.length());
+		System.out.println("str_2의 문자열의 길이      : " + str_2.length());
+		System.out.printf("길이가 같은 문자열 비교 결과  : %s", str_1.compareTo(str_2) + "\n\n");
+		
+		System.out.println("문자열의 길이가 큰 문자열 길이 비교 해보기");
+		System.out.println("str_1의 문자열의 길이      : " + str_1.length());
+		System.out.println("str_3의 문자열의 길이      : " + str_3.length());
+		System.out.printf("길이가 큰 문자열 비교 결과   : %s", str_1.compareTo(str_3) + "\n\n");
+		
+		System.out.println("문자열의 길이가 작은 문자열 길이 비교 해보기");
+		System.out.println("str_3의 문자열의 길이      : " + str_3.length());
+		System.out.println("str_2의 문자열의 길이      : " + str_2.length());
+		System.out.printf("길이가 작은 문자열 비교 결과  : %s", str_3.compareTo(str_2) + "\n\n");
+	}
+}
+
+

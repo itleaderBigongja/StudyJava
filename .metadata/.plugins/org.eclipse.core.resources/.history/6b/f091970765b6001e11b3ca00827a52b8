@@ -1,0 +1,13 @@
+package SamplePackage;
+
+public class splitClass {
+
+	public static void main(String[] args) {
+		String str_1 = "010-1234-5678";
+		String str_2 = "2024-01-19 21:30:00";
+		
+		System.out.println(str_1.split("-"));
+		
+	}
+
+}

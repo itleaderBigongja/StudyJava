@@ -1,0 +1,15 @@
+package SamplePackage;
+
+public class StringClass_2 {
+
+	public static void main(String[] args) {
+	
+		String str = "오늘의 공부는 indexOf 입니다.";
+		
+		System.out.println("첫 번째 indexOf : " + str.indexOf(0));
+		System.out.println("두 번째 indexOf : " + str.indexOf("indexOf"));
+		System.out.println("세 번째 indexOf : " + str.indexOf("공", 1));
+		
+	}
+
+}

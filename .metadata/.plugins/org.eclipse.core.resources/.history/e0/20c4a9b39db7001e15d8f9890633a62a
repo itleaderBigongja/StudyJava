@@ -1,0 +1,14 @@
+package SamplePackage;
+
+public class ReplaceClass {
+
+	public static void main(String[] args) {
+		
+		String address = new String("저는 한국에 살고 있습니다.");
+		String contry_1 = "이탈리";
+		String contry_2 = "스페인";
+		String contry_2 = "캐나다";
+	}
+
+}
+

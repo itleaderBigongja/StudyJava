@@ -1,0 +1,18 @@
+package SamplePackage;
+
+public class StringClass_2 {
+
+	public static void main(String[] args) {
+	
+		String str = "오늘의 공부는 indexOf 입니다.";
+		
+		System.out.println("문자열 데이터에서 첫 번째로 찾을 문자열의 시작위치는? : " + str.indexOf("indexOf", 2));
+		System.out.println("문자열 데이터에서 두 번째로 찾을 문자열의 시작위치는? : " + str.indexOf("공부는", 3));
+		
+	}
+}
+
+
+
+
+

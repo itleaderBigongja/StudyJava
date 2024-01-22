@@ -1,0 +1,29 @@
+package SamplePackage;
+
+public class IsEmptyAndIsBlankClass {
+
+	public static void main(String[] args) {
+		String name_Java   = " ";
+		String name_Python = " ";
+		String name_Sql    = " ";
+		
+		System.out.println("진행자 : 그럼 표를 얻기 위한 장기자랑을 해보실까요?");
+		
+		System.out.println("토론자_1 자바   : " + name_Java);
+		System.out.println("토론자_2 파이썬  : " + name_Python);
+		System.out.println("토론자_3 에스큐  : " + name_Sql);
+		System.out.println("진행자 : 이윽시!! 다들 아무말도 없으시군요...");
+		System.out.println();
+		System.out.println("name_Java는   아무 말도 하지 않았나요? : " + name_Java.isEmpty());
+		System.out.println("name_Python은 아무 말도 하지 않았나요? : " + name_Python.isEmpty());
+		System.out.println("name_Sql은    아무 말도 하지 않았나요? : " + name_Sql.isEmpty());
+		
+		
+		String person = new String("저는 비공자 입니다.");
+		System.out.println("진행자의 이름은? " + person + "입니다.");
+		
+		
+	}
+}
+
+

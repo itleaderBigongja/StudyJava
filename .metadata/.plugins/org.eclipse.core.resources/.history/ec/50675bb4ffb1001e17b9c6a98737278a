@@ -1,0 +1,16 @@
+package SamplePackage;
+
+public class SampleClass {
+
+
+	public static void main(String[] args) {
+		
+		String str = "";			// 문자열 변수 str 초기화 및 생성
+		str = "Hello World~!";		// 문자열 변수 str 정의
+				
+		System.out.println("문자열 작성 : Hello World");
+		System.out.println("변수 사용  : " + str);
+	
+	}
+
+}

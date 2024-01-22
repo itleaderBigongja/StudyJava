@@ -1,0 +1,14 @@
+package SamplePackage;
+
+public class ReplaceClass {
+
+	public static void main(String[] args) {
+		
+		String phoneNum = new String("제 번호는 : 010-1234-5678 입니다.");
+		
+		// 첫 번째 정규식 : 숫자를 제외한 모든 문자제거 하기
+		phoneNum.replaceAll("[^0-9$]", "");
+	}
+
+}
+

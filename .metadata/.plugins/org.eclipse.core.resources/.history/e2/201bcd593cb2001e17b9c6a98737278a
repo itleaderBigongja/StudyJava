@@ -1,0 +1,13 @@
+package SamplePackage;
+
+public class StringClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "";
+		
+		str = "안녕하세요 저는 차세대 IT리더가 되고픈 비공자 입니다.";
+		System.out.println("문자열 길이 : " + str.length()); 
+	}
+
+}

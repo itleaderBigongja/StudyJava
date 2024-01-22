@@ -1,0 +1,45 @@
+package SamplePackage;
+
+public class SampleClass {
+
+	// 코드를 실행하는 main 메소드
+	public static void main(String[] args) {
+
+		int int_1;				// 방법_1 = int형 변수의 생성 
+		int int_2 = 0;			// 방법_2 = int형 변수의 생성 및 0으로 정의 
+		
+		
+		float float_1;			// 방법_1 = float형 변수의 생성 
+		float float_2 = 0;		// 방법_2 = float형 변수의 생성 및 0으로 정의
+		
+		
+		char char_1;			// 방법_1 = char형 변수의 생성  
+		char char_2 = ' ';		// 방법_2 = char형 변수의 생성 및 공백으로 정의 
+		
+		
+		String string_1;		// 방법_1 = String형 변수의 생성 
+		String string_2 = "";	// 방법_2 = String형 변수의 생성 및 공백으로 정의
+		
+		
+		
+		
+		
+		int_1 = 1.0;			// int형 변수 데이터 타입(실수) 오류발생!
+		int_1 = "안녕하세요";		// int형 변수 데이터 타입(문자열) 오류발생!
+		int_1 = 'a';			// int형 변수 데이터 타입(문자) 오류발생!
+		int_2 = 100;			// int형 변수 데이터 타입(정수형) 정상출
+		
+		float_1 = 100;			// float형 변수 데이터 타입(정수) 오류발생!
+		float_1 = 'a';		    // float형 변수 데이터 타입(문자열) 오류발생!
+		float_1 = "안녕하세요";
+		float_2 = 10.01;
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,18 @@
+package SamplePackage;
+
+public class MethodInStringWrapper {
+
+	public static void main(String[] args) {
+		
+		// String Wrapper 객체 생성 및 정의하기
+		String str_1 = new String("안녕하세요 차세대 IT리더 비공자 입니다.");
+		
+		// 문자의 인덱스를 찾는 charAt()이라는 메소드 사용
+		// charAt( 문자의 위치 입력[인덱스] )
+		System.out.println("첫 번째 찾을 문자의 위치 : " + str_1.charAt(0));
+		System.out.println("두 번째 찾을 문자의 위치 : " + str_1.charAt(5));
+		System.out.println("세 번째 찾을 문자의 위치 : " + str_1.charAt(6));
+		System.out.println("네 번째 찾을 문자의 위치 : " + str_1.charAt(7));
+		System.out.println("다섯 번째 찾을 문자의 위치 : " + str_1.charAt(8));
+	}
+}

@@ -1,0 +1,12 @@
+package SamplePackage;
+
+public class IsEmptyAndIsBlankClass {
+
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+
+

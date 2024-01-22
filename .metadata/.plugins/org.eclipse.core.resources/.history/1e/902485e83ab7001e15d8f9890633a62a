@@ -1,0 +1,19 @@
+package SamplePackage;
+
+public class splitClass {
+
+	public static void main(String[] args) {
+		
+		String toDay = "2024-01-19";
+		String[] toDayArray;
+		
+		
+		// 첫 번째 방법 : 배열의 인덱스에 하나씩 저장한다.
+		System.out.println(toDay.split("-"));
+//		System.out.printf("toDayArray에 들어간 데이터의 개수 : %d", toDayArray.length);
+		
+		
+	}
+}
+
+

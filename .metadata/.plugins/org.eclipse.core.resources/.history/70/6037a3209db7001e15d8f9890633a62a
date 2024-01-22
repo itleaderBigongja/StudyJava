@@ -1,0 +1,18 @@
+package SamplePackage;
+
+public class ReplaceClass {
+
+	public static void main(String[] args) {
+		
+		String exam = new String("시험공부 많이 하셨나요?\n시험공부 분명 잘할거예요~!!");
+		String obj_1 = "코딩";
+		String obj_2 = "Java";
+		String obj_3 = "알고리즘";
+		
+		// replace의 또 다른 기능 특정 문자 전체 변경하기
+		System.out.printf("여러분 %s\n\n", exam.replace("시험", obj_1));
+		System.out.printf("여러분 %s\n\n", exam.replace("시험", obj_2));
+		System.out.printf("여러분 %s\n\n", exam.replace("시험", obj_3));
+	}
+
+}

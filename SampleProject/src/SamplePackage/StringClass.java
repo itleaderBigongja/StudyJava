@@ -1,0 +1,30 @@
+package SamplePackage;
+
+public class StringClass {
+
+	public static void main(String[] args) {
+		
+		// 원시자료형 리터럴 표기 방식 변수 사용
+		int   int_1   = 100;
+		float float_1 = 100;
+		char  char_1  = 'a';
+		String str_1  = "안녕하세요~";
+		System.out.println("--- 원시자료형 변수 사용 ---");
+		System.out.println("원시자료형 int 사용    : " + int_1);
+		System.out.println("원시자료형 float 사용  : " + float_1);
+		System.out.println("원시자료형 char 사용   : " + char_1);
+		System.out.println("원시자료형 string 사용 : " + str_1 + "\n");
+		
+		
+		// Wrapper 클래스 사용 방식
+		Integer   integer_2   = new Integer(100);
+	 	Float     float_2     = new Float(100);
+		Character character_2 = new Character('b');
+		String    str_2       = new String("반갑습니다~");
+		System.out.println("--- Wrapper 클래스 사용 ---");
+		System.out.println("Wrapper Integer클래스 사용   : " + integer_2);
+		System.out.println("Wrapper Float클래스 사용     : " + float_2);
+		System.out.println("Wrapper Character클래스 사용 : " + character_2);
+		System.out.println("Wrapper String클래스 사용    : " + str_2);
+	}
+}

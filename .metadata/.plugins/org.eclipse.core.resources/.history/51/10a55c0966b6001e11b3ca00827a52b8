@@ -1,0 +1,13 @@
+package SamplePackage;
+
+public class splitClass {
+
+	public static void main(String[] args) {
+		String addressBas = "경기도 분당시 분당구 판교로";
+		String[] adr = addressBas.split(" ");
+		
+		System.out.println("첫 번째 주소 " + adr[0]);
+		System.out.println("두 번째 주소 " + adr[0]);
+		System.out.println("세 번째 주소 " + adr[0]);
+	}
+}

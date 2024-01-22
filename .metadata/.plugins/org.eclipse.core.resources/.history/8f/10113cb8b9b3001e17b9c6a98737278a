@@ -1,0 +1,14 @@
+package SamplePackage;
+
+public class StringClass_2 {
+
+	public static void main(String[] args) {
+	
+		String str = "오늘의 공부는 indexOf 입니다.";
+		
+		System.out.println("첫 번째 문자열 찾기 : " + str.indexOf(2, '오'));
+		System.out.println("첫 번째 문자열 찾기 : " + str.indexOf(0, '부'));
+	}
+}
+
+
